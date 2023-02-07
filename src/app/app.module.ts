@@ -7,6 +7,8 @@ import { AddComicComponent } from './pages/add-comic/add-comic.component';
 import { ComicsComponent } from './pages/comics/comics.component';
 import { ComicsDetailComponent } from './pages/comics-detail/comics-detail.component';
 import { NavComponent } from './shared/components/nav/nav.component';
+import { HomeComponent } from './pages/home/home.component';
+import { EditComicComponent } from './pages/edit-comic/edit-comic.component';
 
 @NgModule({
   declarations: [
@@ -14,7 +16,9 @@ import { NavComponent } from './shared/components/nav/nav.component';
     AddComicComponent,
     ComicsComponent,
     ComicsDetailComponent,
-    NavComponent
+    NavComponent,
+    HomeComponent,
+    EditComicComponent
   ],
   imports: [
     BrowserModule,
