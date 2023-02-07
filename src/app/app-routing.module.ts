@@ -8,10 +8,10 @@ import { HomeComponent } from './pages/home/home.component';
 
 const routes: Routes = [
   { path: '', component: HomeComponent },
-  { path: '', component: ComicsComponent },
-  { path: '', component: AddComicComponent },
-  { path: '', component: ComicsDetailComponent },
-  { path: '', component: EditComicComponent },
+  { path: 'comics', component: ComicsComponent },
+  { path: 'add-comic', component: AddComicComponent },
+  { path: 'comic/:id', component: ComicsDetailComponent },
+  { path: 'edit', component: EditComicComponent },
 ];
 
 @NgModule({

@@ -1,1 +1,7 @@
-<p>comics works!</p>
+<div class="comics__container" *ngIf="comicsArray">
+    <div class="comic" *ngFor="let comic of comicsArray">
+        <h4>{{comic.title}}</h4>
+        <img src="{{comic.cover}}" alt="{{comic.title}}">
+        <button routerLink="/comics/{{comic.id}}">More</button>
+    </div>
+</div>

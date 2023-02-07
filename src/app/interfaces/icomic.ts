@@ -1,4 +1,4 @@
-export interface Icomic {
+export interface IComic {
     
     id?: number;
     title: string;
